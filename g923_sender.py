@@ -73,8 +73,4 @@ while run:
         print(f"[G923] Steering: {steer_deg:+4d}° | Throttle: {throttle_pct:3d}% | Brake: {brake_pct:3d}% | Buttons: {pressed_buttons}  {raw_throttle}")
         time.sleep(0.01)
         
-        
-
-        joy.rumble(0.5, 0.5, 1000)
-        
 pygame.quit()
