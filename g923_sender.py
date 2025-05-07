@@ -30,9 +30,6 @@ def axis_to_percent(val):
 def axis_to_degrees(val):
     return int(val * STEERING_MAX_DEGREES)
 
-
-
-
 run = True
 while run:
     pygame.event.pump()
